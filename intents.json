@@ -1,0 +1,82 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["My pleasure", "You're Welcome"],
+        "context": [""]
+      },
+      {
+        "tag": "query",
+        "patterns": ["What is Simplilearn?"],
+        "responses": ["Simplilearn is the popular online Bootcamp & online courses learning platform"],
+        "context": [""]
+      },
+      {
+        "tag": "help",
+        "patterns": ["I need help", "Can you help me?", "Help me", "I have a question", "Can anyone assist me?"],
+        "responses": ["Sure, I'm here to help!", "How can I assist you today?", "What do you need help with?"],
+        "context": [""]
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What are your hours?", "When are you open?", "What time do you operate?"],
+        "responses": ["We are available 24/7 to assist you!", "Our services are operational round the clock."],
+        "context": [""]
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you located?", "What is your location?", "Where can I find you?"],
+        "responses": ["We are an online platform accessible from anywhere in the world!"],
+        "context": [""]
+      },
+      {
+        "tag": "pricing",
+        "patterns": ["What are your prices?", "How much does it cost?", "Tell me about your pricing"],
+        "responses": ["Our pricing varies depending on the course or service. Please check our pricing page for details."],
+        "context": [""]
+      },
+      {
+        "tag": "courses",
+        "patterns": ["What courses do you offer?", "Tell me about your courses", "What can I learn here?"],
+        "responses": ["We offer a wide range of courses in technology, business, and more. Check our courses page for details!"],
+        "context": [""]
+      },
+      {
+        "tag": "technical_support",
+        "patterns": ["I'm facing an issue", "I need technical support", "Something isn't working", "Can you fix this problem?"],
+        "responses": ["I'm sorry to hear that. Please provide more details so I can assist you.", "Let me help you with that. Can you explain the issue?"],
+        "context": [""]
+      },
+      {
+        "tag": "feedback",
+        "patterns": ["I have feedback", "Can I provide feedback?", "Where can I share my feedback?"],
+        "responses": ["We value your feedback! Please share it with us so we can improve.", "Your feedback helps us grow. Let us know your thoughts!"],
+        "context": [""]
+      },
+      {
+        "tag": "team",
+        "patterns": ["Who is on your team?", "Tell me about your team", "Who works here?"],
+        "responses": ["Our team is made up of dedicated professionals passionate about education and innovation."],
+        "context": [""]
+      },
+      {
+        "tag": "about",
+        "patterns": ["Tell me about yourself", "What is this platform?", "Who are you?"],
+        "responses": ["We are a platform dedicated to providing high-quality online learning and resources.", "Our goal is to make education accessible and impactful for everyone."]
+      }
+    ]
+  }
+  
